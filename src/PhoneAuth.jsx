@@ -1,6 +1,6 @@
 // src/PhoneAuth.js
 import React, { useState } from 'react';
-import { RecaptchaVerifier, signInWithPhoneNumber } from 'firebase/auth';
+import { RecaptchaVerifier, signInWithPhoneNumber, PhoneAuthProvider, signInWithCredential } from 'firebase/auth';
 import { auth } from './firebaseConfig';
 
 const PhoneAuth = () => {
